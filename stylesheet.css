@@ -1,0 +1,136 @@
+html {
+  display: table;
+  margin: auto;
+    background-color: grey;
+}
+body {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 20px auto;
+  
+  width: 1500px;
+  border-style:solid;
+  border-color: #FFddcc
+  letter-spacing: 1px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
+a:visited {
+  color: purple ;
+}
+
+footer {
+  text-align:center;
+}
+.bg1 {
+  background-color: #1a1a1a;
+  color: white;
+
+  background-size: 100% 100%;
+
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+  height: 100%;
+}
+
+.col-sm-4 {
+  display:block;
+  text-align: center;
+  font-size: 150px;
+  text-align: center;
+}
+.social {
+  width: 25px;
+  height: 25px;
+  display: inline;
+}
+.social img {
+  opacity: 0.75;
+  transition: 1s ease;
+}
+.social img:hover{
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.parallax {
+  background-image: url(background.jpg);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax a {
+  color:#d3d3d3;
+}
+
+p {
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+#personal2 {
+    text-align: center;
+    padding-bottom: 25px;
+    color:white;
+}
+
+#personal2 img {
+    opacity:0.75;
+    transition: 1s ease;
+}
+
+#personal2 img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 1s ease;
+}
+#panel2 {
+  display: none;
+    padding-left: 20px;
+  padding-right:20px;
+}
+
+#personal {
+    text-align: center;
+    margin-bottom: 25px;
+    color:white;
+}
+
+#personal img {
+    opacity:0.75;
+    transition: 1s ease;
+}
+
+#personal img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 1s ease;
+}
+#panel {
+  display: none;
+  padding-left: 20px;
+  padding-right:20px;
+}
+

@@ -68,7 +68,9 @@ footer {
   opacity: 1;
   transition: 1s ease;
 }
-
+.uwaterloologo {
+  overflow: hidden; 
+}
 .parallax {
   background-image: url(background.jpg);
   height: 500px;

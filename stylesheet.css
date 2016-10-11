@@ -54,6 +54,7 @@ footer {
   text-align: center;
   font-size: 150px;
   text-align: center;
+  overflow: hidden;
 }
 .social {
   width: 25px;

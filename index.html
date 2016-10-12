@@ -19,7 +19,7 @@
 
 	<div class="container-fluid text-center bg1">
 		<h1 class="margin b1">Welcome to my website!</h1>
-		<img src="Photo on 2016-10-07 at 9.17 PM.jpg" class="img-responsive img-circle margin" style="display:inline" alt ="A picture of Keith" width="350" height = "350">
+		<img src="keith.jpg" class="img-responsive img-circle margin" style="display:inline" alt ="A picture of Keith" width="350" height = "350">
 		<h2 class="margin b1">I'm Keith Cheung</h2>
 	</div>
 	<div class="container-fluid parallax">
@@ -76,7 +76,14 @@
 				<br>
 				<p>It can be seen by <a href="https://codepen.io/keithcheung41/full/zBKXrP/" target="_blank">clicking here</a>.</p>
 			</div>
-		</div>
+			</div>
+			<div class = "container-fluid">
+			<div id = "personal3"><img src = "Snakes.png" alt = "snake-project">
+			</div>
+			<div id ="panel3"><p> As a kidm this was one of the classic games I'd always have my eyes glued towards. I have now made a very simple version of this game with the java.avt library and now I can relive my childhood whenever I'd like to. </p>
+			<br>
+			<p> On a more technial note, you can see the source code <a>here</a></p>
+			</div>
 	</div>
 
 		<div class = "container-fluid bg-grey">
@@ -107,7 +114,10 @@ $(document).ready(function(){
 		});
 	$("#personal2").click(function(){
 		$('#panel2').slideToggle("slow");
+		});	
+	$("#personal3").click(function(){
+		$('#panel3').slideToggle("slow");
 		});
-	});
+	});	
 </script>
 </html>

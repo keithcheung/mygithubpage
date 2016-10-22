@@ -157,3 +157,29 @@ p {
   padding-left: 20px;
   padding-right:20px;
 }
+
+#personal4 {
+    text-align: center;
+    margin-bottom: 25px;
+    color:white;
+}
+
+#personal4 img {
+    opacity:0.75;
+    transition: 1s ease;
+    width: 300px;
+    height: 100px;
+}
+
+#personal4 img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 1s ease;
+}
+#panel4 {
+  display: none;
+  padding-left: 20px;
+  padding-right:20px;
+}

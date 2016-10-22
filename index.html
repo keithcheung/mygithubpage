@@ -34,10 +34,10 @@
 				<br>
 				<p>Some of my interests include playing games with my friends (League of Legends, Overwatch, H1Z1), surfing the web, watching videos, reading, and weightlifting.</p>
 				<br>
-				<p>For those of you interested in my resume, that can be viewed <a href="keith.pdf">here</a>.</p>
+				<p>For those of you interested in my resume, that can be viewed <a href="Resume.pdf">here</a>.</p>
 			</div>
 			<div class="col-sm-4"> 
-				<img src = "uwaterloo.png" alt = "university-waterloo" style = "height: 150px; width: 375px;">
+				<img src = "pictures/uwaterloo.png" alt = "university-waterloo" style = "height: 150px; width: 375px;">
 			</div>
 		</div>
 	</div>
@@ -69,7 +69,7 @@
 	 		</div>
 			</div>
 			<div class = "container-fluid bg-grey" >
-			<div id="personal"><img src = "elon.png" alt = "elon-sample">
+			<div id="personal"><img src = "pictures/elon.png" alt = "elon-sample">
 			</div>
 			<div id ="panel"><p>This was a simple project that was assigned through the <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a> program that I'm currently enrolled in. It is a page dedicated to Elon Musk, and has a timeline of some of the things he has achieved himself and with his companies.
 				The main objective of this website was to only use the Bootstrap library, and no CSS3. </p> 
@@ -78,7 +78,7 @@
 			</div>
 			</div>
 			<div class = "container-fluid">
-			<div id = "personal3"><img src = "Snakes.png" alt = "snake-project">
+			<div id = "personal3"><img src = "pictures/Snakes.png" alt = "snake-project">
 			</div>
 			<div id ="panel3"><p> As a kid, this was one of the classic games I'd always have my eyes glued towards. I have now made a very simple version of this game with the java.avt library and now I can relive my childhood whenever I'd like to. </p>
 			<br>
@@ -86,6 +86,15 @@
 				Also, while learning Java in high school, we were mainly taught algorithms
 				rather than actual graphical user interface so this was a great learning experience for myself.
 				Finally, you can see the source code <a href="https://github.com/keithcheung/snakes" target="_blank">here</a></p>
+			</div>
+			<div class="container-fluid bg-grey">
+			<div id= "personal4"><img src="pictures/currency.png" alt ="currency-project">
+			</div>
+			<div id = "panel4"><p> Have you ever shopped on a website which supports a different currency and when you go to the shopping cart, the price doesn't look too bad but however, when you get your bill it surprises you because you
+			never expected the currency exchange to be so large? I know exactly how you feel, and that is a part of the reason why I made this google chrome extension. Now with a click of a button, you can easily convert your currency before
+			checking out your items to have a better idea to how much your items really cost. </p> <br>
+			<p> This extension has currency rates that are updated daily. To see the source code of this project, just click <a href="https://github.com/keithcheung/currencyconverter" target="_blank">here</a>.</p>
+			</div>
 			</div>
 	</div>
 
@@ -97,11 +106,11 @@
 			<h2>Contact</h2>
 			<p>If you'd like to reach me by email me just <a href="mailto:contact@keithcheung.me?Subject=Website%20Contact">click here</a>.</p>
 			<p>You can find me around the web through these social networks:</p>
-			<a href = "https://github.com/keithcheung" target="_blank"><img class = "social" src = "github.png" alt = "github logo"></a>
-			<a href = "https://ca.linkedin.com/in/keithcheung41" target="_blank"><img class = "social" src = "linkedin.png" alt = "linkedin logo"></a>
-			<a href = "https://twitter.com/keithcheung32" target="_blank"><img class = "social" src = "twitter.png" alt = "twitter logo"></a>
-			<a href = "https://www.instagram.com/kcheung41/" target = "_blank"><img class = "social" src = "instagram.png" alt = "instagram logo"></a>
-			<a href = "https://www.facebook.com/keithcheung41" target="_blank"><img class = "social" src = "facebook.png" alt="facebook logo"></a>
+			<a href = "https://github.com/keithcheung" target="_blank"><img class = "social" src = "social/github.png" alt = "github logo"></a>
+			<a href = "https://ca.linkedin.com/in/keithcheung41" target="_blank"><img class = "social" src = "social/linkedin.png" alt = "linkedin logo"></a>
+			<a href = "https://twitter.com/keithcheung32" target="_blank"><img class = "social" src = "social/twitter.png" alt = "twitter logo"></a>
+			<a href = "https://www.instagram.com/kcheung41/" target = "_blank"><img class = "social" src = "social/instagram.png" alt = "instagram logo"></a>
+			<a href = "https://www.facebook.com/keithcheung41" target="_blank"><img class = "social" src = "social/facebook.png" alt="facebook logo"></a>
 			</div>
 
 		</div>
@@ -120,6 +129,9 @@ $(document).ready(function(){
 		});	
 	$("#personal3").click(function(){
 		$('#panel3').slideToggle("slow");
+		});
+	$("#personal4").click(function(){
+		$('#panel4').slideToggle("slow");
 		});
 	});	
 </script>

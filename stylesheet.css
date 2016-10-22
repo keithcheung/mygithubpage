@@ -71,7 +71,7 @@ footer {
 }
 
 .parallax {
-  background-image: url(background.jpg);
+  background-image: url(pictures/background.jpg);
   height: 500px;
   background-attachment: fixed;
   background-position: fixed;

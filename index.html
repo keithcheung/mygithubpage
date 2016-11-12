@@ -1,138 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>Hi I'm Keith!</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link href = "logo.gif" rel="icon" type="image/gif">
+	<title>keith</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script src="jquery-3.0.0.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+	<link href = "logo.gif" rel="icon" type="image/gif">
 </head>
-
-
-
 <body>
-
-
-	<div class="container-fluid text-center bg1">
-		<h1 class="margin b1">Welcome to my website!</h1>
-		<img src="keith.jpg" class="img-responsive img-circle margin" style="display:inline" alt ="A picture of Keith" width="350" height = "350">
-		<h2 class="margin b1">I'm Keith Cheung</h2>
-	</div>
-	<div class="container-fluid parallax">
-		<div class="row"> <!-- Makes the text and picture in same row -->
-			<div class="col-sm-8" style = "padding-left: 50px; color: white;"> <!-- Makes the columns -->
-				<h2>About Me</h2>
-				<p>I am a first year student at the University of Waterloo studying Computer Science. I have an interest in basically
-				everything that has a back-end enviornment, whether it's implemented in hardware, or embbedded within webpages I am intrigued
-				by back-end developement and would love to learn more about it. </p>
-					<br>
-				<p>During my years at Milliken Mills High School, I discovered my passion for programming. What I love about programming is the fact that you're able to make your imagination into a reality, and the sense of fulfillment you get from doing this is indescribable.</p>
-				<br>
-				<p>Some of my interests include playing games with my friends (League of Legends, Overwatch, H1Z1), surfing the web, watching videos, reading, and weightlifting.</p>
-				<br>
-				<p>For those of you interested in my resume, that can be viewed <a href="Resume.pdf">here</a>.</p>
-			</div>
-			<div class="col-sm-4"> 
-				<img src = "pictures/uwaterloo.png" alt = "university-waterloo" style = "height: 150px; width: 375px;">
-			</div>
+	<div class= "container-main centered">
+		<h1>Keith Cheung</h1>
+		<div>
+    		<a href="about.html">about</a> /
+    		<a href="projects.html">projects</a> /
+    		<a href="contact.html">contact</a>
+    	<div style="text-align: center;">
+			<a href ="https://github.com/keithcheung" target="_blank">
+				<img src = "images/github.png" height="24" width= "24">
+			</a>
+			<a href ="https://ca.linkedin.com/in/keithcheung41" target="_blank">
+				<img src = "images/linkedin.png" height="24" width= "24">
+			</a>
 		</div>
-	</div>
-	<div class="container-fluid bg-grey">
-		<div class="row">
-			<div class = "col-sm-4">
-				<span class = "glyphicon glyphicon-pushpin logo"></span>
-			</div>
-			<div class="col-sm-8">
-				<h2>What I Do</h2>
-				<h4><strong>VISION:</strong> I aspire to become a software developer.</h4>
-				<p>Currently, my main focus is developing web developement skills to design more interactive websites. With that being said, web applications are also an
-				option. After focusing on web developement, I do want to experiment
-			and focus more on application developement. Whether that will be on iOS or Andriod is still yet to be determined. </p>
-			</div>
-		</div>
-	</div>
-	<div class = "container-fluid uwaterloologo">
-		<h2> Side Projects </h2>
-		<h4 style="text-align: center;"> Click on the projects to see an explaination of them. </h4>
-			<div class = "container-fluid">
-			<div id="personal2" ><img src = "https://i.gyazo.com/26a9c5a9164559686867896ac48eab5c.png" alt = "coding-sample">
-			</div>
-			<div id = "panel2"><p>As you are reading this, you are using this project. It is meant to
-			showcase my completed and ongoing public projects, and to try to speak for who I am and what I want
-			to achieve. </p>
-			<p> This website is mainly composed of Bootstrap which is a HTML, CSS and JavaScript framework and uses a little bit of the jQuery library.
-			If you'd like to see the source code, just <a href = "https://github.com/keithcheung/website" target = "_blank">click here</a>.</p>
-	 		</div>
-			</div>
-			<div class = "container-fluid bg-grey" >
-			<div id="personal"><img src = "pictures/elon.png" alt = "elon-sample">
-			</div>
-			<div id ="panel"><p>This was a simple project that was assigned through the <a href="https://www.freecodecamp.com" target="_blank">freeCodeCamp</a> program that I'm currently enrolled in. It is a page dedicated to Elon Musk, and has a timeline of some of the things he has achieved himself and with his companies.
-				The main objective of this website was to only use the Bootstrap library, and no CSS3. </p> 
-				<br>
-				<p>It can be seen by <a href="https://codepen.io/keithcheung41/full/zBKXrP/" target="_blank">clicking here</a>.</p>
-			</div>
-			</div>
-			<div class = "container-fluid">
-			<div id = "personal3"><img src = "pictures/Snakes.png" alt = "snake-project">
-			</div>
-			<div id ="panel3"><p> As a kid, this was one of the classic games I'd always have my eyes glued towards. I have now made a very simple version of this game with the java.avt library and now I can relive my childhood whenever I'd like to. </p>
-			<br>
-			<p> On a more technial note, this project was a way for me to just get back into coding with Java. 
-				Also, while learning Java in high school, we were mainly taught algorithms
-				rather than actual graphical user interface so this was a great learning experience for myself.
-				Finally, you can see the source code <a href="https://github.com/keithcheung/snakes" target="_blank">here</a></p>
-			</div>
-			<div class="container-fluid bg-grey">
-			<div id= "personal4"><img src="pictures/currency.png" alt ="currency-project">
-			</div>
-			<div id = "panel4"><p> Have you ever shopped on a website which supports a different currency and when you go to the shopping cart, the price doesn't look too bad but however, when you get your bill it surprises you because you
-			never expected the currency exchange to be so large? I know exactly how you feel, and that is a part of the reason why I made this google chrome extension. Now with a click of a button, you can easily convert your currency before
-			checking out your items to have a better idea to how much your items really cost. </p> <br>
-			<p> This extension has currency rates that are updated daily. To see the source code of this project, just click <a href="https://github.com/keithcheung/currencyconverter" target="_blank">here</a>.</p>
-			</div>
-			</div>
+  		</div>
 	</div>
 
-		<div class = "container-fluid bg-grey">
-			<div class = "col-sm-4">
-				<span class="glyphicon glyphicon-envelope logo"></span>
-			</div>
-			<div class = "col-sm-8">
-			<h2>Contact</h2>
-			<p>If you'd like to reach me by email me just <a href="mailto:contact@keithcheung.me?Subject=Website%20Contact">click here</a>.</p>
-			<p>You can find me around the web through these social networks:</p>
-			<a href = "https://github.com/keithcheung" target="_blank"><img class = "social" src = "social/github.png" alt = "github logo"></a>
-			<a href = "https://ca.linkedin.com/in/keithcheung41" target="_blank"><img class = "social" src = "social/linkedin.png" alt = "linkedin logo"></a>
-			<a href = "https://twitter.com/keithcheung32" target="_blank"><img class = "social" src = "social/twitter.png" alt = "twitter logo"></a>
-			<a href = "https://www.instagram.com/kcheung41/" target = "_blank"><img class = "social" src = "social/instagram.png" alt = "instagram logo"></a>
-			<a href = "https://www.facebook.com/keithcheung41" target="_blank"><img class = "social" src = "social/facebook.png" alt="facebook logo"></a>
-			</div>
-
-		</div>
-		<footer>
-			<p>Website by: Keith Cheung 2016</p>
-		</footer>
 </body>
-
-<script>
-$(document).ready(function(){
-	$("#personal").click(function(){
-		$('#panel').slideToggle("slow");
-		});
-	$("#personal2").click(function(){
-		$('#panel2').slideToggle("slow");
-		});	
-	$("#personal3").click(function(){
-		$('#panel3').slideToggle("slow");
-		});
-	$("#personal4").click(function(){
-		$('#panel4').slideToggle("slow");
-		});
-	});	
-</script>
 </html>

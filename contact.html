@@ -6,14 +6,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" href="animsition/dist/css/animsition.min.css">
 <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto" rel="stylesheet">
 <link href = "logo.gif" rel="icon" type="image/gif">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="animsition/dist/js/animsition.min.js"></script>
+<script src="scripts.js"></script>
 </head>
 
 <body>
+<div class="animsition">
 	<div class = "container-fluid">
 	<div class ="nav-bar">
-	<p> <a href="index.html">home</a> / <a href="about.html">about</a> / <a href="projects">projects</a></p>
+	<p> <a href="index.html">home</a> / <a href="about.html">about</a> / <a href="projects.html">projects</a></p>
 	</div>
   <div class = "container-about about">
   <h3> contact </h3>
@@ -28,7 +34,35 @@
   <a href = "https://twitter.com/keithcheung32" target="_blank"><img src="images/twitter.png" height="30" width= "30"></a>
   </div>
   </div>
-	
+	</div>
 </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <script src="animsition/dist/js/animsition.min.js" charset="utf-8"></script>
+  <script>
+  $(document).ready(function() {
+    $('.animsition').animsition({
+    inClass: 'zoom-in',
+    outClass: 'zoom-out',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+  });
+  </script>
 </body>
 </html>

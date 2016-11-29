@@ -9,12 +9,12 @@ body {
 a:hover {
 	color: #ffb3d1;
 }
+.about {
+    letter-spacing: 2px;
+}
 .form-center {
 	display: block;
 	text-align: center;
-}
-.about {
-	letter-spacing: 1px;
 }
 
 .container-main {
@@ -37,12 +37,17 @@ a:hover {
 	position: absolute;
 	display: block;
 	margin: 0;
-	text-align: center;
+
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
 	vertical-align: middle;
 	line-height: 40px;
+}
+.centered p{
+    text-align: center;
+    letter-spacing: 3px;
+    display:inline-block;
 }
 .pad {
     padding: 5px;
@@ -67,6 +72,9 @@ img.my-pic {
 	margin-top: 10px;
 	top: 40px;
 
+}
+.typed-cursor {
+    display: none;
 }
 #personal3 {
     text-align: center;

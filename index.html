@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>keith</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
-	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto" rel="stylesheet">
-	<link href = "logo.gif" rel="icon" type="image/gif">
-	
+  <title>keith</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto" rel="stylesheet">
+  <link href = "logo.gif" rel="icon" type="image/gif">
+
 </head>
 <body>
 <div class="animsition">
-	<div class= "container-main centered">
-	<h1>Keith Cheung</h1>
-		<div>
-    		<a href="about.html" class="animsition-link">about</a> /
-    		<a href="projects.html" class="animsition-link">projects</a> /
-    		<a href="contact.html" class="animsition-link">contact</a>
-    	<div style="text-align: center;">
-			<a href ="https://github.com/keithcheung" target="_blank">
-				<img src = "images/github.png" height="24" width= "24">
-			</a>
-			<a href ="https://ca.linkedin.com/in/keithcheung41" target="_blank">
-				<img src = "images/linkedin.png" height="24" width= "24">
-			</a>
-		</div>
+  <div class= "container-main centered">
+  <h1 class="name"></h1>
+    <div>
+        <a href="about.html" class="animsition-link"><p class="about"></p></a> /
+        <a href="projects.html" class="animsition-link"><p class="project"></p></a> /
+        <a href="contact.html" class="animsition-link"><p class="contact"></p></a>
+      <div style="text-align: center;">
+      <a href ="https://github.com/keithcheung" target="_blank">
+        <img src = "images/github.png" height="24" width= "24">
+      </a>
+      <a href ="https://ca.linkedin.com/in/keithcheung41" target="_blank">
+        <img src = "images/linkedin.png" height="24" width= "24">
+      </a>
+    </div>
 
-  		</div>
+      </div>
 
-	</div>
-	</div>
+  </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" charset="utf-8"></script>
+ <script src ="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
   <script>
   $(document).ready(function() {
     $('.animsition').animsition({
@@ -59,7 +60,52 @@
     overlayParentElement : 'body',
     transition: function(url){ window.location.href = url; }
   });
+var name = function () {
+
+  $(".name").typed({
+        strings: ["Keith Cheung"],
+        typeSpeed: 100
+      });
+
+}
+var a = function() {
+
+    $(".about").typed({
+        strings: ["about"],
+        typeSpeed: 100
+      });
+};
+
+var b = function() {
+
+    $(".project").typed({
+        strings: ["projects"],
+        typeSpeed: 100
+      });
+};
+
+var c = function() {
+
+    $(".contact").typed({
+        strings: ["contact"],
+        typeSpeed: 100
+      });
+
+};
+function myFunction() {
+  name();
+    setTimeout(a , 2000);
+    setTimeout(b, 3000);
+    setTimeout(c, 4100);
+}
+myFunction();
+
+      
+      
+      
+      
   });
+
   </script>
   </script>
 </body>

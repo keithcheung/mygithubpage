@@ -9,6 +9,12 @@ body {
 a:hover {
 	color: #ffb3d1;
 }
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+}
 .about {
     letter-spacing: 2px;
 }
@@ -20,9 +26,8 @@ a:hover {
 .container-main {
 	width: 100%;
     padding-top: 500px;
-
-
 }
+
 .container-about {
 	height: 70%;
 	width: 70%;
@@ -52,6 +57,16 @@ a:hover {
 .pad {
     padding: 5px;
 }
+.fa-social {
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+
+}
+a > .fa-social {
+    color: black;
+}
+
 .social {
     display: block;
     margin-left: auto;
@@ -65,6 +80,7 @@ img.my-pic {
 	margin-right: auto;
 
 }
+
 .nav-bar {
 	text-align: center;
 	position: static;
@@ -96,7 +112,7 @@ img.my-pic {
 }
 #panel3 {
   display: none;
-    padding-left: 20px;
+  padding-left: 20px;
   padding-right:20px;
 }
 
@@ -121,7 +137,7 @@ img.my-pic {
 }
 #panel2 {
   display: none;
-    padding-left: 20px;
+  padding-left: 20px;
   padding-right:20px;
 }
 

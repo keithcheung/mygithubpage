@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>keith</title>
+	<title>projects - keith</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -26,9 +26,10 @@
 	<div class="animsition">
 		<div class = "container-fluid">
 			<div class ="nav-bar" style="letter-spacing: 4px">
-				<p> <a href="index.html" class="animsition-link">home</a> / 
+				<a href="index.html" class="animsition-link">home</a> / 
 					<a href="about.html" class="animsition-link">about</a>  /
-					<a href="contact.html" class="animsition-link">contact</a></p>
+					<strong><a>projects</a></strong> /
+					<a href="contact.html" class="animsition-link">contact</a>
 
 				</div>
 			</div>
@@ -75,6 +76,16 @@
 									<p> This extension has currency rates that are updated daily. To see the source code of this project, just click <a href="https://github.com/keithcheung/currencyconverter" target="_blank">here</a>.</p>
 								</div>
 							</div>
+							<div class = "container-fluid" style = "background-color: #f7ede3">
+								<div id ="personal5"><img src ="https://i.gyazo.com/82477a01ca51d370d0a813c8bb8c7fb8.png" alt ="dearMe-Project">
+								</div>
+								<div id ="panel5"><p> This was a project that was made by 3 other members and I during the Electric City Hacks event in November 2016.</p>
+								<br>
+								<p> In a nutshell, this web application is a smart diary. It reads your entries and collects data about your emotions and persona. With this data, a radar chart is made that shows the difference of your persona now, compared to a period of time of your choosing. </p>
+								<br>
+								<p>For this project, we mainly used Node.js for the backend, with sentiment analysis utilizing Java. For the database, we went with mongoDB. For the front end, it was the Jade, and CSS.</p>
+								</div>
+								</div>
 						</div>
 					</div>
 					<footer>
@@ -87,10 +98,11 @@
 										<span class="fa-social fa fa-instagram"></span> </a>
 										<a href = "https://www.facebook.com/keithcheung41" target="_blank">
 											<span class="fa-social fa fa-facebook"></span> </a>
-											<a href = "https://twitter.com/keithcheung32" target="_blank">
+											<a href = "https://twitter.com/keithcheung41" target="_blank">
 												<span class="fa-social fa fa-twitter"></span> </a>
 											</div> 
-											<span class="fa fa-copyright">2016 Keith Cheung</span>
+											<span class="fa fa-copyright">2016 Keith Cheung
+											<p class="footer-note">Handcrafted with love </p></span>
 										</footer>
 									</div>
 									<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
@@ -136,7 +148,9 @@
 										$("#personal4").click(function(){
 											$('#panel4').slideToggle("slow");
 										});
-
+										$("#personal5").click(function(){
+											$('#panel5').slideToggle("slow");
+										});
 									});	
 								</script>
 								</html>

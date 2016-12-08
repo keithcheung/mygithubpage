@@ -16,13 +16,16 @@ footer {
     text-align: center;
 }
 .about {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 12px;
 }
 .form-center {
 	display: block;
 	text-align: center;
 }
-
+.footer-note {
+    font-size: 10px;
+}
 .container-main {
 	width: 100%;
     padding-top: 500px;
@@ -66,7 +69,9 @@ footer {
 a > .fa-social {
     color: black;
 }
-
+a:hover > .fa-social {
+    color: pink;
+}
 .social {
     display: block;
     margin-left: auto;
@@ -186,6 +191,31 @@ img.my-pic {
     transition: 1s ease;
 }
 #panel4 {
+  display: none;
+  padding-left: 20px;
+  padding-right:20px;
+}
+#personal5 {
+    text-align: center;
+    padding-bottom: 25px;
+    color:white;
+}
+
+#personal5 img {
+    opacity:0.75;
+    transition: 1s ease;
+    height: 110px;
+    width: 650px;
+}
+
+#personal5 img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 1s ease;
+}
+#panel5 {
   display: none;
   padding-left: 20px;
   padding-right:20px;

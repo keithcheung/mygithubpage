@@ -9,20 +9,28 @@ body {
 a:hover {
 	color: #ffb3d1;
 }
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.about {
+    letter-spacing: 1px;
+    font-size: 12px;
+}
 .form-center {
 	display: block;
 	text-align: center;
 }
-.about {
-	letter-spacing: 1px;
+.footer-note {
+    font-size: 10px;
 }
-
 .container-main {
 	width: 100%;
     padding-top: 500px;
-
-
 }
+
 .container-about {
 	height: 70%;
 	width: 70%;
@@ -37,15 +45,32 @@ a:hover {
 	position: absolute;
 	display: block;
 	margin: 0;
-	text-align: center;
+
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
 	vertical-align: middle;
 	line-height: 40px;
 }
+.centered p{
+    text-align: center;
+    letter-spacing: 3px;
+    display:inline-block;
+}
 .pad {
     padding: 5px;
+}
+.fa-social {
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+
+}
+a > .fa-social {
+    color: black;
+}
+a:hover > .fa-social {
+    color: pink;
 }
 .social {
     display: block;
@@ -60,6 +85,7 @@ img.my-pic {
 	margin-right: auto;
 
 }
+
 .nav-bar {
 	text-align: center;
 	position: static;
@@ -67,6 +93,9 @@ img.my-pic {
 	margin-top: 10px;
 	top: 40px;
 
+}
+.typed-cursor {
+    display: none;
 }
 #personal3 {
     text-align: center;
@@ -88,7 +117,7 @@ img.my-pic {
 }
 #panel3 {
   display: none;
-    padding-left: 20px;
+  padding-left: 20px;
   padding-right:20px;
 }
 
@@ -113,7 +142,7 @@ img.my-pic {
 }
 #panel2 {
   display: none;
-    padding-left: 20px;
+  padding-left: 20px;
   padding-right:20px;
 }
 
@@ -162,6 +191,31 @@ img.my-pic {
     transition: 1s ease;
 }
 #panel4 {
+  display: none;
+  padding-left: 20px;
+  padding-right:20px;
+}
+#personal5 {
+    text-align: center;
+    padding-bottom: 25px;
+    color:white;
+}
+
+#personal5 img {
+    opacity:0.75;
+    transition: 1s ease;
+    height: 110px;
+    width: 650px;
+}
+
+#personal5 img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 1s ease;
+}
+#panel5 {
   display: none;
   padding-left: 20px;
   padding-right:20px;

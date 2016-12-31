@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>keith</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
-	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto" rel="stylesheet">
-	<link href = "logo.gif" rel="icon" type="image/gif">
-	
+  <title>keith</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto" rel="stylesheet">
+  <link href = "logo.gif" rel="icon" type="image/gif">
+
 </head>
 <body>
-<div class="animsition">
-	<div class= "container-main centered">
-	<h1>Keith Cheung</h1>
-		<div>
-    		<a href="about.html" class="animsition-link">about</a> /
-    		<a href="projects.html" class="animsition-link">projects</a> /
-    		<a href="contact.html" class="animsition-link">contact</a>
-    	<div style="text-align: center;">
-			<a href ="https://github.com/keithcheung" target="_blank">
-				<img src = "images/github.png" height="24" width= "24">
-			</a>
-			<a href ="https://ca.linkedin.com/in/keithcheung41" target="_blank">
-				<img src = "images/linkedin.png" height="24" width= "24">
-			</a>
-		</div>
+  <div class="animsition">
+    <div class= "container-main centered">
+      <h1 class="name"></h1>
+      <h6 class="description"></h6>
+      <div>
+        <a href="about.html" class="animsition-link"><p class="about"></p></a> /
+        <a href="projects.html" class="animsition-link"><p class="project"></p></a> /
+        <a href="contact.html" class="animsition-link"><p class="contact"></p></a>
+        <div class="animated" style="text-align: center;">
+          
+          <a href ="https://github.com/keithcheung" target="_blank" style ="color: black;">
+            <span class="fa-social fa fa-github"></span> </a>
+            <a href ="https://ca.linkedin.com/in/keithcheung41" target="_blank">
+              <span class="fa-social fa fa-linkedin"></span> </a>
+              
+            </div>
 
-  		</div>
+          </div>
 
-	</div>
-	</div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" charset="utf-8"></script>
-  <script>
-  $(document).ready(function() {
-    $('.animsition').animsition({
-    inClass: 'zoom-in',
-    outClass: 'zoom-out',
-    inDuration: 1500,
-    outDuration: 800,
-    linkElement: '.animsition-link',
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" charset="utf-8"></script>
+      <script src ="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          $('.animsition').animsition({
+            inClass: 'zoom-in',
+            outClass: 'zoom-out',
+            inDuration: 1500,
+            outDuration: 800,
+            linkElement: '.animsition-link',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
     loading: true,
     loadingParentElement: 'body', //animsition wrapper element
@@ -59,8 +63,59 @@
     overlayParentElement : 'body',
     transition: function(url){ window.location.href = url; }
   });
-  });
-  </script>
-  </script>
-</body>
-</html>
+          var name = function () {
+
+            $(".name").typed({
+              strings: ["Keith Cheung"],
+              typeSpeed: 100
+            });
+
+          }
+          var description = function () {
+            $(".description").typed({
+              strings:[" LEARNER / DEVELOPER / MOTIVATED"],
+              typeSpeed: 20
+            });
+          };
+          var a = function() {
+
+            $(".about").typed({
+              strings: ["about"],
+              typeSpeed: 30
+            });
+          };
+
+          var b = function() {
+
+            $(".project").typed({
+              strings: ["projects"],
+              typeSpeed: 30
+            });
+          };
+
+          var c = function() {
+
+            $(".contact").typed({
+              strings: ["contact"],
+              typeSpeed: 30
+            });
+
+          };
+          var animate = function() {
+            $('.animated').addClass('swing');
+          };
+          function myFunction() {
+            name();
+            setTimeout(description, 2000);
+            setTimeout(a , 4000);
+            setTimeout(b, 4500);
+            setTimeout(c, 5100);
+            setTimeout(animate, 6000);
+          }
+          myFunction();
+        });
+
+      </script>
+      
+    </body>
+    </html>

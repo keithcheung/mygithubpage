@@ -18,7 +18,8 @@
     <div class = "container-fluid">
       <div class ="nav-bar">
         <a href="index.html" class="animsition-link">home</a> /
-        <strong><a> about </a></strong> /
+        <strong><a>about</a></strong> /
+        <a href="blog.html" class="animsition-link">blog</a> /
         <a href="projects.html" class="animsition-link">projects</a> /
         <a href="contact.html" class="animsition-link">contact</a>
 
@@ -44,51 +45,26 @@
             <img class="my-pic" src="images/keith.JPG">
           </div>
         </div>
+    </div>
+    <footer>
+      <div>
+        <a href ="https://github.com/keithcheung" target="_blank">
+          <span class="fa-social fa fa-github"></span> </a>
+        <a href ="https://ca.linkedin.com/in/keithcheung41" target="_blank">
+            <span class="fa-social fa fa-linkedin"></span> </a>
+        <a href = "https://www.instagram.com/kcheung41/" target = "_blank">
+            <span class="fa-social fa fa-instagram"></span> </a>
+        <a href = "https://www.facebook.com/keithcheung41" target="_blank">
+            <span class="fa-social fa fa-facebook"></span> </a>
+        <a href = "https://twitter.com/keithcheung41" target="_blank">
+            <span class="fa-social fa fa-twitter"></span> </a>
       </div>
-      <footer>
-        <div>
-          <a href ="https://github.com/keithcheung" target="_blank">
-            <span class="fa-social fa fa-github"></span> </a>
-            <a href ="https://ca.linkedin.com/in/keithcheung41" target="_blank">
-              <span class="fa-social fa fa-linkedin"></span> </a>
-              <a href = "https://www.instagram.com/kcheung41/" target = "_blank">
-                <span class="fa-social fa fa-instagram"></span> </a>
-                <a href = "https://www.facebook.com/keithcheung41" target="_blank">
-                  <span class="fa-social fa fa-facebook"></span> </a>
-                  <a href = "https://twitter.com/keithcheung41" target="_blank">
-                    <span class="fa-social fa fa-twitter"></span> </a>
-                  </div>
-                  <span class="fa fa-copyright">2016 Keith Cheung
-                    <p class="footer-note">Handcrafted with love </p></span>
-                  </footer>
-                </div>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" charset="utf-8"></script>
-                <script>
-                  $(document).ready(function() {
-                    $('.animsition').animsition({
-                      inClass: 'zoom-in',
-                      outClass: 'zoom-out',
-                      inDuration: 1500,
-                      outDuration: 800,
-                      linkElement: '.animsition-link',
-                      // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-                      loading: true,
-                      loadingParentElement: 'body', //animsition wrapper element
-                      loadingClass: 'animsition-loading',
-                      loadingInner: '', // e.g '<img src="loading.svg" />'
-                      timeout: false,
-                      timeoutCountdown: 5000,
-                      onLoadEvent: true,
-                      browser: [ 'animation-duration', '-webkit-animation-duration'],
-                      // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-                      // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-                      overlay : false,
-                      overlayClass : 'animsition-overlay-slide',
-                      overlayParentElement : 'body',
-                      transition: function(url){ window.location.href = url; }
-                    });
-                  });
-                </script>
-              </body>
-              </html>
+      <span class="fa fa-copyright">2016 Keith Cheung
+      <p class="footer-note">Handcrafted with love </p></span>
+    </footer>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" charset="utf-8"></script>
+<script src="animsition.js"></script>
+</body>
+</html>

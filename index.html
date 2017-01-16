@@ -21,101 +21,27 @@
       <h6 class="description"></h6>
       <div>
         <a href="about.html" class="animsition-link"><p class="about-description"></p></a> /
+        <a href="blog.html" class ="animsition-link"><p class="blog"></p></a> /
         <a href="projects.html" class="animsition-link"><p class="project"></p></a> /
         <a href="contact.html" class="animsition-link"><p class="contact"></p></a>
         <div class="animated" style="text-align: center;">
 
           <a href ="https://github.com/keithcheung" target="_blank" style ="color: black;">
-            <span class="fa-social fa fa-github"></span> </a>
-            <a href ="https://ca.linkedin.com/in/keithcheung41" target="_blank">
-              <span class="fa-social fa fa-linkedin"></span> </a>
-
-            </div>
-
-          </div>
+          <span class="fa-social fa fa-github"></span> </a>
+          <a href ="https://ca.linkedin.com/in/keithcheung41" target="_blank">
+          <span class="fa-social fa fa-linkedin"></span> </a>
 
         </div>
+
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" charset="utf-8"></script>
-      <script src ="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
-      <script>
-        $(document).ready(function() {
-          $('.animsition').animsition({
-            inClass: 'zoom-in',
-            outClass: 'zoom-out',
-            inDuration: 1500,
-            outDuration: 800,
-            linkElement: '.animsition-link',
-    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-    loading: true,
-    loadingParentElement: 'body', //animsition wrapper element
-    loadingClass: 'animsition-loading',
-    loadingInner: '', // e.g '<img src="loading.svg" />'
-    timeout: false,
-    timeoutCountdown: 5000,
-    onLoadEvent: true,
-    browser: [ 'animation-duration', '-webkit-animation-duration'],
-    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-    overlay : false,
-    overlayClass : 'animsition-overlay-slide',
-    overlayParentElement : 'body',
-    transition: function(url){ window.location.href = url; }
-  });
-          var name = function () {
 
-            $(".name").typed({
-              strings: ["Keith Cheung"],
-              typeSpeed: 100
-            });
-
-          }
-          var description = function () {
-            $(".description").typed({
-              strings:[" THINKER / LEARNER / DEVELOPER"],
-              typeSpeed: 20
-            });
-          };
-          var a = function() {
-
-            $(".about-description").typed({
-              strings: ["about"],
-              typeSpeed: 30
-            });
-          };
-
-          var b = function() {
-
-            $(".project").typed({
-              strings: ["projects"],
-              typeSpeed: 30
-            });
-          };
-
-          var c = function() {
-
-            $(".contact").typed({
-              strings: ["contact"],
-              typeSpeed: 30
-            });
-
-          };
-          var animate = function() {
-            $('.animated').addClass('swing');
-          };
-          function myFunction() {
-            name();
-            setTimeout(description, 2000);
-            setTimeout(a , 4000);
-            setTimeout(b, 4500);
-            setTimeout(c, 5100);
-            setTimeout(animate, 6000);
-          }
-          myFunction();
-        });
-
-      </script>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js" charset="utf-8"></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+  <script src="animsition.js"></script>
+  <script src="index.js"></script>
 
     </body>
     </html>

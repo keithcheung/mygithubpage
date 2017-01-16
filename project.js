@@ -1,0 +1,17 @@
+$(document).ready(function(){
+	$("#personal").click(function(){
+		$('#panel').slideToggle("slow");
+	});
+	$("#personal2").click(function(){
+		$('#panel2').slideToggle("slow");
+	});	
+	$("#personal3").click(function(){
+		$('#panel3').slideToggle("slow");
+	});
+	$("#personal4").click(function(){
+		$('#panel4').slideToggle("slow");
+	});
+	$("#personal5").click(function(){
+		$('#panel5').slideToggle("slow");
+	});
+});	

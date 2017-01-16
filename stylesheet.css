@@ -19,6 +19,21 @@ footer {
     letter-spacing: 1px;
     font-size: 12px;
 }
+.blog-pic {
+    width: 400px;
+    height: 400px;
+}
+.blog-caption {
+    margin: 20px;
+}
+.blog-entry {
+    letter-spacing: -.5px;
+    padding-top: 10px;
+}
+.blog-bar {
+    text-align: center;
+    padding: 20px;
+}
 .form-center {
 	display: block;
 	text-align: center;
@@ -40,6 +55,14 @@ footer {
 }
 .container-fluid {
 	padding: 10px;
+}
+.container-blog {
+    
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .centered {
 	position: absolute;

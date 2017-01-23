@@ -4,7 +4,7 @@ $(document).ready(function(){
 	});
 	$("#personal2").click(function(){
 		$('#panel2').slideToggle("slow");
-	});	
+	});
 	$("#personal3").click(function(){
 		$('#panel3').slideToggle("slow");
 	});
@@ -14,4 +14,7 @@ $(document).ready(function(){
 	$("#personal5").click(function(){
 		$('#panel5').slideToggle("slow");
 	});
-});	
+	$("#personal6").click(function(){
+		$('#panel6').slideToggle("slow");
+	});
+});

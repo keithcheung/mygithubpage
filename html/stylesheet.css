@@ -19,6 +19,21 @@ footer {
     letter-spacing: 1px;
     font-size: 12px;
 }
+.blog-pic {
+    width: 400px;
+    height: 400px;
+}
+.blog-caption {
+    margin: 20px;
+}
+.blog-entry {
+    letter-spacing: -.5px;
+    padding-top: 10px;
+}
+.blog-bar {
+    text-align: center;
+    padding: 20px;
+}
 .form-center {
 	display: block;
 	text-align: center;
@@ -40,6 +55,14 @@ footer {
 }
 .container-fluid {
 	padding: 10px;
+}
+.container-blog {
+
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .centered {
 	position: absolute;
@@ -101,6 +124,7 @@ img.my-pic {
 	top: 40px;
 
 }
+
 .typed-cursor {
     display: none;
 }
@@ -223,6 +247,31 @@ img.my-pic {
     transition: 1s ease;
 }
 #panel5 {
+  display: none;
+  padding-left: 20px;
+  padding-right:20px;
+}
+#personal6 {
+    text-align: center;
+    padding-bottom: 25px;
+    color:white;
+}
+
+#personal6 img {
+    opacity:0.75;
+    transition: 1s ease;
+    height: 110px;
+    width: 650px;
+}
+
+#personal6 img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 1s ease;
+}
+#panel6 {
   display: none;
   padding-left: 20px;
   padding-right:20px;

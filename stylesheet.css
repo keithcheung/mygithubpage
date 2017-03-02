@@ -45,7 +45,6 @@ footer {
 	position: absolute;
 	display: block;
 	margin: 0;
-
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
@@ -56,6 +55,14 @@ footer {
     text-align: center;
     letter-spacing: 3px;
     display:inline-block;
+}
+.projects-centered {
+	position: relative;
+
+}
+img > .projects-centered {
+    width: 2px;
+    height: 500px;
 }
 .pad {
     padding: 5px;

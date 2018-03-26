@@ -1,5 +1,6 @@
 html {
-	background-color: #060007;
+    background-color: #060007;
+    overflow: hidden;
 }
 p {
     color: #ffffff;
@@ -9,13 +10,18 @@ a{
 }
 body {
     font-family: 'Open Sans', sans-serif;
-	background-color: #060007;;
+    background-color: #060007;
+    margin: 0;
+    padding: 0;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 15%;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
     height: 15%;
     margin-bttom: -10%;
 }
@@ -41,6 +47,10 @@ hr {
     margin-left: 20%;
     margin-right: 20%;
 }
+.links {
+    z-index: 2;
+    position: relative;
+}
 i {
     color: #fff;
     font-size: 40px;
@@ -51,4 +61,19 @@ i:hover {
 }
 i:visited {
     color: #69f5ff;
+}
+.container-fluid {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.48;
+    z-index: 2;
 }

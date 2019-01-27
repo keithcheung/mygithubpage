@@ -23,7 +23,6 @@ img {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+ */
     height: 15%;
-    margin-bttom: -10%;
 }
 
 hr {
@@ -35,6 +34,8 @@ hr {
 }
 .container-fluid {
     width: 100%;
+    overflow: hidden;
+    margin-top: 5%;
 }
 .text-center {
     text-align: center;
@@ -64,10 +65,6 @@ i:hover {
 }
 i:visited {
     color: #69f5ff;
-}
-.container-fluid {
-    overflow: hidden;
-    margin-top: 5%;
 }
 
 #particles-js {

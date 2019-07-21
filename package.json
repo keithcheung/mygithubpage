@@ -1,6 +1,6 @@
 {
-  "name": "website-update",
-  "homepage": "https://keithcheung.github.io/keithcheung.github.io",
+  "name": "keithcheung.github.io",
+  "homepage": "https://keithcheung.github.io/keithcheung.github.io/public",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

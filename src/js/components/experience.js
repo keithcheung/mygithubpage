@@ -6,7 +6,6 @@ import {
   Spacer,
   DevIcon
 } from "../shared/shared_components";
-import styled from "styled-components";
 
 function Experience() {
   return (

@@ -9,7 +9,7 @@ import Contact from "./js/components/footer";
 function App() {
   return (
     <div className="App">
-      <div className="item" data-aos="fade-up">
+      <div className="item">
         <Title />
       </div>
       <div className="item" data-aos="fade-down">

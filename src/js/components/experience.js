@@ -29,7 +29,7 @@ function Experience() {
             insights for our customers.
           </p>
           <p>
-            My first internship was at SMART Technology where I worked on making
+            My first internship was at SMART Technogies where I worked on making
             their popular desktop application SMART Desktop into a web-based
             application which is now known as Smart Learning Suite Online.
           </p>

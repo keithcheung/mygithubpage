@@ -37,6 +37,11 @@ function Title() {
           <i className="fa fa-file" />
         </Link>
       </div>
+      <div class="container">
+        <div class="chevron" />
+        <div class="chevron" />
+        <div class="chevron" />
+      </div>
     </div>
   );
 }

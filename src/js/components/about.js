@@ -1,6 +1,12 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import { H3, RestrictedImage, Spacer } from "../shared/shared_components";
+import { H3, Spacer } from "../shared/shared_components";
+import styled from "styled-components";
+
+export const Me = styled.img`
+  height: 35%;
+  padding-top: 20%;
+`;
 
 function About() {
   return (
@@ -10,7 +16,7 @@ function About() {
           <H3>about me</H3>
         </Grid>
         <Grid item xs={5}>
-          <RestrictedImage src={process.env.PUBLIC_URL + "/me.jpg"} alt="me" />
+          <Me src={process.env.PUBLIC_URL + "/me.jpg"} alt="me" />
         </Grid>
         <Grid item xs={7} style={{ textAlign: "start" }}>
           <Spacer />
@@ -21,8 +27,7 @@ function About() {
           <p>
             I’m currently a third year student studying Computer Science at the
             University of Waterloo. Some areas of interest to me are software
-            engineering, human-computer interaction, and algorithm complexity
-            (although the latter is a lot more challenging).
+            engineering, human-computer interaction, and algorithm complexity.
           </p>
           <p>
             During my free time, I like to sip coffee, read books, and pretend

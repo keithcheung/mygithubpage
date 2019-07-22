@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/App.css";
 import "./css/Star.css";
+import "./css/Arrowdown.css";
 import Title from "./js/components/title";
 import About from "./js/components/about";
 import Experience from "./js/components/experience";

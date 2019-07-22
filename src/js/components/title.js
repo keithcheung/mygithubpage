@@ -33,7 +33,10 @@ function Title() {
         <Link target="_blank" href="https://github.com/keithcheung">
           <i className="fa fa-github" />
         </Link>
-        <Link target="_blank" href="assets/resume.pdf">
+        <Link
+          target="_blank"
+          href="https://drive.google.com/file/d/15_TwvUtPo8L5y_3xPJNYX5tipeFb-ozW/view"
+        >
           <i className="fa fa-file" />
         </Link>
       </div>

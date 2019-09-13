@@ -25,9 +25,8 @@ function Experience() {
           <p>
             During my previous internship at HubSpot, I was on the subscriptions
             team where I worked on different ways to drive improvements in email
-            marketing for our customers, (in light of GDPR) and provided
-            different for our customers to gain insights on their email
-            campaign.
+            marketing, (in light of GDPR) and provided different ways for our
+            customers to gain insights on their email campaign.
           </p>
           <p>
             My first internship was at SMART Technogies where I worked on making
@@ -49,9 +48,9 @@ function Experience() {
         </Grid>
         <Grid item xs={12} style={{ textAlign: "left" }}>
           <p>
-            During my time internships as well as experimenting with different
-            projects helped me gain extensive experience in many frameworks and
-            tools:
+            During my time at internships as well as experimenting with
+            different projects, I have gained an extensive experience in many
+            frameworks and tools:
           </p>
         </Grid>
         <Grid item xs={12}>

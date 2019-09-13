@@ -4,8 +4,12 @@ import { H3, DevIcon } from "../shared/shared_components";
 
 function Contact() {
   return (
-    <div>
-      <Grid container spacing={3} style={{ marginTop: "40px" }}>
+    <div style={{ paddingTop: "120px" }}>
+      <Grid
+        container
+        spacing={3}
+        style={{ paddingTop: "80px", marginBottom: "80px" }}
+      >
         <Grid item xs={12}>
           <H3>contact</H3>
         </Grid>

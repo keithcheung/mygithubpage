@@ -36,7 +36,7 @@ function Title() {
         </Link>
         <Link
           target="_blank"
-          href="https://drive.google.com/file/d/15_TwvUtPo8L5y_3xPJNYX5tipeFb-ozW/view"
+          href="https://drive.google.com/open?id=1-1VMWCAHD7JKPV_S1RFPka1AmOPoLUwk"
         >
           <i className="fa fa-file" />
         </Link>

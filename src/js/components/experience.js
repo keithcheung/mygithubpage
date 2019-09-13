@@ -18,9 +18,10 @@ function Experience() {
           <Spacer />
           <p>
             During my most recent internship at HubSpot, I was on the customer
-            relations manager’s communicator team. Our team was is in charge of.
-            We played a huge role in the interactions that help build a customer
-            base for companies to grow better.
+            relations manager’s communicator team. Our team was is in charge of
+            120,000 daily interactions between company representatives and their
+            customers. We played a huge role in the interactions that help build
+            a customer base for companies to grow better.
           </p>
           <p>
             During my previous internship at HubSpot, I was on the subscriptions

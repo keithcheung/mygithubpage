@@ -17,16 +17,17 @@ function Experience() {
         <Grid item xs={7} style={{ textAlign: "start" }}>
           <Spacer />
           <p>
-            I’m currently interning at HubSpot where I’m on the customer
-            relations manager’s communicator team. Our product is in charge of
-            120,000 daily interactions for our customers and plays a huge role
-            in helping their businesses grow.
+            During my most recent internship at HubSpot, I was on the customer
+            relations manager’s communicator team. Our team was is in charge of.
+            We played a huge role in the interactions that help build a customer
+            base for companies to grow better.
           </p>
           <p>
             During my previous internship at HubSpot, I was on the subscriptions
-            team where I worked on different ways to improve the email marketing
-            experience, (in light of GDPR) and provided different ways to gain
-            insights for our customers.
+            team where I worked on different ways to drive improvements in email
+            marketing for our customers, (in light of GDPR) and provided
+            different for our customers to gain insights on their email
+            campaign.
           </p>
           <p>
             My first internship was at SMART Technogies where I worked on making

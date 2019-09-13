@@ -24,15 +24,16 @@ function Experience() {
             a customer base for companies to grow better.
           </p>
           <p>
-            During my previous internship at HubSpot, I was on the subscriptions
+            During my first internship at HubSpot, I was on the subscriptions
             team where I worked on different ways to drive improvements in email
             marketing, (in light of GDPR) and provided different ways for our
             customers to gain insights on their email campaign.
           </p>
           <p>
-            My first internship was at SMART Technogies where I worked on making
-            their popular desktop application SMART Desktop into a web-based
-            application which is now known as Smart Learning Suite Online.
+            My first internship was at SMART Technogies where I worked on
+            transitioning their popular desktop application SMART Desktop into a
+            web-based application which is now known as Smart Learning Suite
+            Online.
           </p>
         </Grid>
         <Grid item xs={5}>

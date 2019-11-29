@@ -22,7 +22,8 @@ function Title() {
     <div>
       <H3>Keith Cheung</H3>
       <p>
-        CS Student at the University of Waterloo | Incoming UI Engineer Intern at LinkedIn | Previously at HubSpot (x2) and SMART Technologies
+        CS Student at the University of Waterloo | Incoming UI Engineer Intern
+        at LinkedIn | Previously at HubSpot (x2) and SMART Technologies
       </p>
       <hr />
       <div>
@@ -34,15 +35,15 @@ function Title() {
         </Link>
         <Link
           target="_blank"
-          href="https://drive.google.com/open?id=1-1VMWCAHD7JKPV_S1RFPka1AmOPoLUwk"
+          href="https://drive.google.com/open?id=1vVGLDHWjvoGIErZjAtaQ_JBGB87U0jD5"
         >
           <i className="fa fa-file" />
         </Link>
       </div>
-      <div class="container">
-        <div class="chevron" />
-        <div class="chevron" />
-        <div class="chevron" />
+      <div className="container">
+        <div className="chevron" />
+        <div className="chevron" />
+        <div className="chevron" />
       </div>
     </div>
   );

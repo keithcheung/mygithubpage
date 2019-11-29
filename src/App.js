@@ -19,7 +19,11 @@ function App() {
       <div className="item" data-aos="fade-right">
         <Experience />
       </div>
-      <div className="item" data-aos="fade-left">
+      <div
+        className="footer"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <Contact />
       </div>
     </div>

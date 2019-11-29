@@ -1,43 +1,53 @@
 #starHolder {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
 }
 
 body {
-    align-items: center;
-    font-family: "Lato", sans-serif;
+  align-items: center;
+  font-family: "Lato", sans-serif;
 }
 
 html {
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f);
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover a:visited {
-    color: #18324f;
+  color: #18324f;
 }
 
 .App {
-    scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
 }
 
 .item {
-    width: 800px;
-    height: 600px;
-    margin: 150px auto;
-    padding: 50px 25px;
-    text-align: center;
-    /* background: #18324f; */
-    color: #fff;
-    position: relative;
-    scroll-snap-align: start;
+  width: 800px;
+  height: 800px;
+  margin: 150px auto;
+  padding: 50px 25px;
+  text-align: center;
+  /* background: #18324f; */
+  color: #fff;
+  position: relative;
+  scroll-snap-align: start;
 }
 
 .item p {
-    font-size: 14pt;
+  font-size: 14pt;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 3px 5px;
+  background: black;
+  color: white;
+  text-align: center;
 }

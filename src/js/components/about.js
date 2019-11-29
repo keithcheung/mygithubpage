@@ -31,7 +31,7 @@ function About() {
           </p>
           <p>
             During my free time, I like to sip coffee, read books, and pretend
-            I’m a movie critique.
+            I’m a movie critic.
           </p>
         </Grid>
       </Grid>

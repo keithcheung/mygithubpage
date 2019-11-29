@@ -22,8 +22,8 @@ function Title() {
     <div>
       <H3>Keith Cheung</H3>
       <p>
-        CS Student at the University of Waterloo | Incoming UI Engineer Intern
-        at LinkedIn | Previously at HubSpot (x2) and SMART Technologies
+        CS Student at the University of Waterloo / Incoming UI Engineer Intern
+        at LinkedIn Previously at HubSpot (x2) and SMART Technologies
       </p>
       <hr />
       <div>
